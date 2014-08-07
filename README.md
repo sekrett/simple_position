@@ -25,6 +25,10 @@ class Page < ActiveRecord::Base
 end
 ```
 
+## Notes
+
+1. Compatible with Rails 4.1 und ruby 2.x
+
 ## Contributing
 
 1. Fork it

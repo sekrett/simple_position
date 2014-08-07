@@ -9,6 +9,6 @@ module SimplePosition
 
   protected
   def set_position
-    self.position ||= 1 + self.class.maximum(:position).to_i
+    self.position ||= 1 + self.class.max(:position).to_i
   end
 end
